@@ -15,7 +15,7 @@ const SingleProduct = ({ prod }) => {
         <Card.Body>
           <Card.Title>{prod.name}</Card.Title>
           <Card.Subtitle style={{ paddingBottom: 10 }}>
-            <span>₹ {prod.price.split(".")[0]}</span>
+            <span>$ {prod.price.split(".")[0]}</span>
             {prod.fastDelivery ? (
               <div>Fast Delivery</div>
             ) : (
