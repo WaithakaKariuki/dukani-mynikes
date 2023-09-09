@@ -47,7 +47,11 @@ const SingleProduct = ({ prod }) => {
             >
               {!prod.inStock ? "Out of Stock" : "Add to Cart"}
             </Button>
+            
           )}
+          {/* <Button  >
+              Preview
+          </Button> */}
         </Card.Body>
       </Card>
     </div>

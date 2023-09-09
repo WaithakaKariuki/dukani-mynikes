@@ -3,8 +3,12 @@ import Header from "./components/Header";
 import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Cart from "./components/Cart";
+// import { Createproduct } from "./components/Sell";
+
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <Header />
@@ -12,6 +16,9 @@ function App() {
         <Route path="/" exact>
           <Home />
         </Route>
+        {/* <Route path="/sell" exact>
+          <Createproduct />
+        </Route> */}
         <Route path="/cart">
           <Cart />
         </Route>
@@ -19,5 +26,4 @@ function App() {
     </BrowserRouter>
   );
 }
-
 export default App;

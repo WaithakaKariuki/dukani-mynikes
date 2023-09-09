@@ -1,9 +1,32 @@
 import { createContext, useContext, useReducer } from "react";
 import faker from "faker";
 import { cartReducer, productReducer } from "./Reducers";
+// import { productsArray } from "../data/data";
+// import {useState, useEffect} from "react"
+// import {products} from "./src./App.js"
+// const header = new Headers({ "Access-Control-Allow-Origin": "*" });
 
 const Cart = createContext();
 faker.seed(99);
+
+// async function getData() {
+//   const data = await fetch('http://localhost:9292/products')
+//       .then(res => res.json())
+//       .then (products =>{
+//         // payload : data
+//         // dispatch({payload : products})
+//         return products}
+//         )
+        
+//       // .catch(e => {
+//       //     console.error(e);
+//       // })
+//       // console.log(data)
+//       return data;
+     
+// }
+
+
 
 const Context = ({ children }) => {
   const products = [...Array(20)].map(() => ({
@@ -15,12 +38,34 @@ const Context = ({ children }) => {
     fastDelivery: faker.datatype.boolean(),
     ratings: faker.random.arrayElement([1, 2, 3, 4, 5]),
   }));
+// console.log(productsArray)
+
+// const [ products, setProductArray ] = useState([]);
+// useEffect(() => {
+//   (async () => {
+//       const products = await getData();
+//       dispatch({payload : products})
+//       setProductArray(products);
+//       console.log(products)
+//   })();
+// }, []);
+ 
+
+
+
+
+
+// const products=productsArray
+// console.log(productsArray)
+// console.log(products)
+
+// const products = productsArray
 
   const [state, dispatch] = useReducer(cartReducer, {
     products: products,
     cart: [],
   });
-
+  console.log(state)
   const [productState, productDispatch] = useReducer(productReducer, {
     byStock: false,
     byFastDelivery: false,
