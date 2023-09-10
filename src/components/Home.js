@@ -8,9 +8,10 @@ const Home = () => {
     productState: { sort, byStock, byFastDelivery, byRating, searchQuery },
   } = CartState();
 
+  console.log(products)
   const transformProducts = () => {
     let sortedProducts = products;
-
+    
     if (sort) {
       sortedProducts = sortedProducts.sort((a, b) =>
         sort === "lowToHigh" ? a.price - b.price : b.price - a.price
@@ -36,10 +37,11 @@ const Home = () => {
         prod.name.toLowerCase().includes(searchQuery)
       );
     }
-
+    console.log(sortedProducts)
     return sortedProducts;
+    
   };
-
+ 
   return (
     <div className="home">
       <Filters />
