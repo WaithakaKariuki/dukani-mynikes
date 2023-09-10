@@ -1,4 +1,4 @@
-import { createContext, useContext, useReducer, useState, useEffect } from "react";
+import { createContext, useContext, useReducer } from "react";
 import faker from "faker";
 import { cartReducer, productReducer } from "./Reducers";
 // import { commerce } from '../lib/commerce'
