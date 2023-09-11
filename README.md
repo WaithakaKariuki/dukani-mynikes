@@ -2,11 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The app will demonstrate a basic cart management system, as well as a simple method of handling user authentication using forms.
+The app will demonstrate a Shopping Cart management system React JS. It uses Context API with useReducer Hook for State Management.
+With the use of React Hooks like createContext and useContext, The app allows users to add to cart functionality along with sorting and filtering products by search. also.
 - Users will be able to have items to add to cart
 - Users can add goods and remove them from the cart to buy later
 - Users can filter through products to get their specific products easily,
-- Users can search for a product
+- Users can search for a specific product
 - Users will be able to checkout and get a thanks message from purchase store
 
 ## Available Scripts
