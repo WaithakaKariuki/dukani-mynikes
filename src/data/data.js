@@ -1,16 +1,3 @@
-// import product1 from "../assets/product1.png";
-// import product2 from "../assets/product2.png";
-// import product3 from "../assets/product3.png";
-// import product4 from "../assets/product4.png";
-// import product5 from "../assets/product5.png";
-// import product6 from "../assets/product6.png";
-// import product7 from "../assets/product7.png";
-// import product8 from "../assets/product8.png";
-// import product9 from "../assets/product9.png";
-// import product10 from "../assets/product10.png";
-// import product11 from "../assets/product11.png";
-// import product12 from "../assets/product12.png";
-// import {useState, useEffect} from 'react'
 
 const product1 = "https://sneakernews.com/wp-content/uploads/2023/01/air-jordan-3-reimagined-official-images-DN3707-100-3.jpg?w=1140"
 const product2 = "https://sneakernews.com/wp-content/uploads/2022/09/air-jordan-37-low.jpg"
@@ -25,47 +12,6 @@ const product10 = "https://sneakernews.com/wp-content/uploads/2022/03/nike-lebro
 const product11 = "https://sneakernews.com/wp-content/uploads/2023/02/Nike-Air-Max-1-Safari-Summit-White-FB5059-100-5.jpg?w=1140"
 const product12 = "https://sneakernews.com/wp-content/uploads/2023/01/Air-Jordan-2-Low-Cherrywood-DV9956-103-04.jpg"
 
-
-// const api_url = "http://localhost:9292/products"
-// async function getProducts(){
-//   const response = await fetch(api_url)
-//   const data = await response.json()
-//   const {productArray} = data
-//   const prodArray = productArray
-// }
-// console.log(prodArray)
-
-// getProducts()
-
-
-  // fetch("http://localhost:9292/products")
-  // .then((r)=> r.json())
-  // .then((d) => {
-  //   const productA = d }) 
-
-  // console.log(productA)
-
-  // console.log(product)
-  // const products = JSON.parse(d)
-  // console.log(products)
-  //   const data = d})
-
-  // for (const key in data) {
-  //   console.log(data[key]);
-  // }
-
-// function Products (){
-
-//     console.log(productArray)
-//     return (
-//       <>
-//         <Context>
-//           {productArray}
-//         </Context>
-//       </>
-//     )
-  
-//   }
 
 
 // const productsArray= [
