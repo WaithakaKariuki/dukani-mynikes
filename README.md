@@ -25,11 +25,11 @@ You may also see any lint errors in the console.
 
 ### Dukani MyNikes Screenshots:
 
-![](.src/assets/screenshot.png)
+![](src/assets/screenshot.png)
 
-![](.src/assets/screenshot1.png)
+![](src/assets/screenshot1.png)
 
-![](.src/assets/screenshot2.png)
+![](src/assets/screenshot2.png)
 
 ### `npm test`
 
