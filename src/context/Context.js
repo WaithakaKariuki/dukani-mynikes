@@ -1,7 +1,6 @@
 import { createContext, useContext, useReducer } from "react";
 import faker from "faker";
 import { cartReducer, productReducer } from "./Reducers";
-// import { commerce } from '../lib/commerce'
 import { productsArray as products } from "../data/data";
 
 const Cart = createContext();
